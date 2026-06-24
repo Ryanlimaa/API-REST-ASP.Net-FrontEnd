@@ -1,0 +1,130 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using WFConFin.Data;
+using WFConFin.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace WFConFin.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class CidadeController : Controller
+    {
+        private readonly AppDbContext _context;
+
+        public CidadeController(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult GetCidade()
+        {
+            try
+            {
+                var result = _context.Cidade.ToList();
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return BadRequest($"Erro na listagem de cidades. Exceção: {e.Message}");    
+            }
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetCidadeById([FromRoute] Guid id)
+        {
+            try
+            {
+                var cidade = _context.Cidade.Find(id);
+                if (cidade == null)
+                {
+                    return NotFound($"Cidade com ID {id} não encontrada.");
+                }
+                else
+                {
+                    return Ok(cidade);
+                }
+            }
+            catch (Exception e)
+            {
+                return BadRequest($"Erro na consulta de cidades. Exceção: {e.Message}");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult PostCidade([FromBody] Cidade cidade)
+        {
+            try
+            {
+                _context.Cidade.Add(cidade);
+                var result = _context.SaveChanges();
+
+                if (result == 1)
+                {
+                    return Ok("Cidade incluída com sucesso!");
+                }
+                else
+                {
+                    return BadRequest("Erro, cidade não incluida.");
+                }
+            }
+            catch (Exception e)
+            {
+                return BadRequest($"Erro, cidade não incluida. Exceção: {e.Message}");
+            }
+        }
+
+        [HttpPut]
+        public IActionResult PutCidade([FromBody] Cidade cidade)
+        {
+            try
+            {
+                _context.Cidade.Update(cidade);
+                var result = _context.SaveChanges();
+
+                if (result == 1)
+                {
+                    return Ok("Cidade alterada com sucesso!");
+                }
+                else
+                {
+                    return BadRequest("Erro, cidade não alterada.");
+                }
+            }
+            catch (Exception e)
+            {
+                return BadRequest($"Erro, cidade não alterada. Exceção: {e.Message}");
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteCidade([FromRoute] Guid id)
+        {
+            try
+            {
+                var cidade = _context.Cidade.Find(id);
+                if (cidade == null)
+                {
+                    return NotFound("Cidade não encontrada.");
+                }
+
+                _context.Cidade.Remove(cidade);
+                var result = _context.SaveChanges();
+
+                if (result == 1)
+                {
+                    return Ok("Cidade excluída com sucesso!");
+                }
+                else
+                {
+                    return BadRequest("Erro, cidade não excluída.");
+                }
+            }
+            catch (Exception e)
+            {
+                return BadRequest($"Erro, cidade não excluida. Exceção: {e.Message}");
+            }
+        }
+    }
+}

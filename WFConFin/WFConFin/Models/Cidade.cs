@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace WFConFin.Models
 {
@@ -18,6 +19,8 @@ namespace WFConFin.Models
         {
             Id = Guid.NewGuid(); // Gera um GUID para a cidade
         }
+
+        [JsonIgnore] // Ignora a serialização da propriedade Estado para evitar referência circular
         public Estado Estado { get; set; } // Relacionamento entre Cidade e Estado, onde cada cidade pertence a um estado específico. 
 
     }
