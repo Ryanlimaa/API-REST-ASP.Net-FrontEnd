@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\appsettings.stagin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\appsettings.stagin.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\situacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\situacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,97 +38,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Models\\Usuario.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Usuario.cs",
-              "RelativeToolTip": "WFConFin\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T20:47:54.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Situacao.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Situacao.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Models\\Situacao.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Situacao.cs",
-              "RelativeToolTip": "WFConFin\\Models\\Situacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T20:42:19.944Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Stagin.json",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\appsettings.Stagin.json",
+              "RelativeDocumentMoniker": "WFConFin\\appsettings.Stagin.json",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\appsettings.Stagin.json",
+              "RelativeToolTip": "WFConFin\\appsettings.Stagin.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-24T01:21:59.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Conta.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Conta.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Models\\Conta.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Conta.cs",
-              "RelativeToolTip": "WFConFin\\Models\\Conta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T20:35:35.248Z",
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "WFConFin\\appsettings.Production.json",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\appsettings.Production.json",
+              "RelativeToolTip": "WFConFin\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-24T01:19:57.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WFConFin\\appsettings.Development.json",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\appsettings.Development.json",
+              "RelativeToolTip": "WFConFin\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-24T01:19:19.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Pessoa.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Pessoa.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Models\\Pessoa.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Pessoa.cs",
-              "RelativeToolTip": "WFConFin\\Models\\Pessoa.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T20:21:09.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cidade.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Cidade.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Models\\Cidade.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Cidade.cs",
-              "RelativeToolTip": "WFConFin\\Models\\Cidade.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T20:08:52.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Estado.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Estado.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Models\\Estado.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Estado.cs",
-              "RelativeToolTip": "WFConFin\\Models\\Estado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T19:38:57.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WFConFin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:44:45.971Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\appsettings.json",
+              "RelativeDocumentMoniker": "WFConFin\\appsettings.json",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\appsettings.json",
+              "RelativeToolTip": "WFConFin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-24T01:11:56.013Z",
               "EditorCaption": ""
             },
             {
@@ -143,9 +100,35 @@
               "RelativeDocumentMoniker": "WFConFin\\Program.cs",
               "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Program.cs",
               "RelativeToolTip": "WFConFin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-23T13:47:13.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WFConFin\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WFConFin\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:02:57.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WFConFin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WFConFin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:44:45.971Z",
               "EditorCaption": ""
             }
           ]

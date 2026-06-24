@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using WFConFin.Data;
+
 namespace WFConFin
 {
     public class Program
@@ -8,11 +11,16 @@ namespace WFConFin
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            var connectionString = builder.Configuration.GetConnectionString("DataBase");
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
+            options.UseNpgsql(connectionString));
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
 
             var app = builder.Build();
 

@@ -1,0 +1,12 @@
+############
+## dotnet ##
+############
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ 
+# Configurações sensíveis / locais
+appsettings.Development.json

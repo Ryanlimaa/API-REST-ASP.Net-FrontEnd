@@ -2,7 +2,7 @@
 
 namespace WFConFin.Models
 {
-    public class Cidade : Estado
+    public class Cidade
     {
         [Key]
         public Guid Id { get; set;}
