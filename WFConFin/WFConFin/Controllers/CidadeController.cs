@@ -18,11 +18,11 @@ namespace WFConFin.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetCidade()
+        public async Task<IActionResult> GetCidade()
         {
             try
             {
-                var result = _context.Cidade.ToList();
+                var result = await _context.Cidade.ToListAsync();
                 return Ok(result);
             }
             catch (Exception e)
@@ -32,11 +32,11 @@ namespace WFConFin.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetCidadeById([FromRoute] Guid id)
+        public async Task<IActionResult> GetCidadeById([FromRoute] Guid id)
         {
             try
             {
-                var cidade = _context.Cidade.Find(id);
+                var cidade = await _context.Cidade.FindAsync(id);
                 if (cidade == null)
                 {
                     return NotFound($"Cidade com ID {id} não encontrada.");
@@ -53,12 +53,12 @@ namespace WFConFin.Controllers
         }
 
         [HttpPost]
-        public IActionResult PostCidade([FromBody] Cidade cidade)
+        public async Task<IActionResult> PostCidade([FromBody] Cidade cidade)
         {
             try
             {
-                _context.Cidade.Add(cidade);
-                var result = _context.SaveChanges();
+                await _context.Cidade.AddAsync(cidade);
+                var result = await _context.SaveChangesAsync();
 
                 if (result == 1)
                 {
@@ -76,12 +76,12 @@ namespace WFConFin.Controllers
         }
 
         [HttpPut]
-        public IActionResult PutCidade([FromBody] Cidade cidade)
+        public async Task<IActionResult> PutCidade([FromBody] Cidade cidade)
         {
             try
             {
                 _context.Cidade.Update(cidade);
-                var result = _context.SaveChanges();
+                var result = await _context.SaveChangesAsync();
 
                 if (result == 1)
                 {
@@ -99,18 +99,18 @@ namespace WFConFin.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteCidade([FromRoute] Guid id)
+        public async Task<IActionResult> DeleteCidade([FromRoute] Guid id)
         {
             try
             {
-                var cidade = _context.Cidade.Find(id);
+                var cidade = await _context.Cidade.FindAsync(id);
                 if (cidade == null)
                 {
                     return NotFound("Cidade não encontrada.");
                 }
 
                 _context.Cidade.Remove(cidade);
-                var result = _context.SaveChanges();
+                var result = await _context.SaveChangesAsync();
 
                 if (result == 1)
                 {

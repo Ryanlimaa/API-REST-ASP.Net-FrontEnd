@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Runtime.CompilerServices;
 using WFConFin.Data;
 using WFConFin.Models;
 
@@ -16,11 +18,11 @@ namespace WFConFin.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetEstado()
+        public async Task<IActionResult> GetEstado()
         {
             try
             {
-                var result = _context.Estado.ToList();
+                var result = await _context.Estado.ToListAsync();
                 return Ok(result);
             }
             catch (Exception e)
@@ -30,11 +32,11 @@ namespace WFConFin.Controllers
         }
 
         [HttpGet("{sigla}")]
-        public IActionResult GetEstadoBySigla([FromRoute] string sigla)
+        public async Task<IActionResult> GetEstadoBySigla([FromRoute] string sigla)
         {
             try
             {
-                var estado = _context.Estado.Find(sigla);
+                var estado = await _context.Estado.FindAsync(sigla);
 
                 if (estado == null)
                 {
@@ -52,12 +54,12 @@ namespace WFConFin.Controllers
         }
 
         [HttpPost]
-        public IActionResult PostEstado([FromBody] Estado estado)
+        public async Task<IActionResult> PostEstado([FromBody] Estado estado)
         {
             try
             {
-                _context.Estado.Add(estado);
-                var result = _context.SaveChanges();
+                await _context.Estado.AddAsync(estado);
+                var result = await _context.SaveChangesAsync();
 
                 if (result == 1)
                 {
@@ -75,12 +77,12 @@ namespace WFConFin.Controllers
         }
 
         [HttpPut]
-        public IActionResult PutEstado([FromBody] Estado estado)
+        public async Task<IActionResult> PutEstado([FromBody] Estado estado)
         {
             try
             {
                 _context.Estado.Update(estado);
-                var result = _context.SaveChanges();
+                var result = await _context.SaveChangesAsync();
 
                 if (result == 1)
                 {
@@ -98,18 +100,18 @@ namespace WFConFin.Controllers
         }
 
         [HttpDelete("{sigla}")]
-        public IActionResult DeleteEstado([FromRoute] string sigla)
+        public async Task<IActionResult> DeleteEstado([FromRoute] string sigla)
         {
             try
             {
-                var estado = _context.Estado.Find(sigla);
+                var estado = await _context.Estado.FindAsync(sigla);
                 if (estado == null)
                 {
                     return NotFound("Estado não encontrado.");
                 }
 
                 _context.Estado.Remove(estado);
-                var result = _context.SaveChanges();
+                var result = await _context.SaveChangesAsync();
 
                 if (result == 1)
                 {
