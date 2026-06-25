@@ -21,7 +21,7 @@ namespace WFConFin.Controllers
         {
             try
             {
-                var result = await _context.Pessoa.ToListAsync();
+                var result = await _context.Pessoa.Include(x => x.Cidade).ToListAsync();
                 return Ok(result);
             }
             catch (Exception e)

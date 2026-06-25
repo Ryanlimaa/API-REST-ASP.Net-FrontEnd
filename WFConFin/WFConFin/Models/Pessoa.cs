@@ -27,7 +27,6 @@ namespace WFConFin.Models
 
         [StringLength(20, ErrorMessage = "O campo Gênero deve ter até 20 caracteres!")]
         public string Genero { get; set; }
-
         public Guid? CidadeId { get; set; } // Propriedade para armazenar o ID da cidade associada
 
         public Pessoa()
@@ -35,7 +34,6 @@ namespace WFConFin.Models
             Id = Guid.NewGuid();
         }
 
-        [JsonIgnore] // Ignora a serialização da propriedade Cidade para evitar referência circular
         public Cidade Cidade { get; set; } // Relacionamento entre Pessoa e Cidade, onde cada pessoa pertence a uma cidade específica.
     }
 }

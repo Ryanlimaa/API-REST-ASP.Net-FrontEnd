@@ -22,7 +22,7 @@ namespace WFConFin.Controllers
         {
             try
             {
-                var result = await _context.Cidade.ToListAsync();
+                var result = await _context.Cidade.Include(x => x.Estado).ToListAsync();
                 return Ok(result);
             }
             catch (Exception e)
