@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace WFConFin.Models
 {
@@ -34,6 +35,7 @@ namespace WFConFin.Models
             Id = Guid.NewGuid();
         }
 
+        [JsonIgnore] // Ignora a serialização da propriedade Cidade para evitar referência circular
         public Cidade Cidade { get; set; } // Relacionamento entre Pessoa e Cidade, onde cada pessoa pertence a uma cidade específica.
     }
 }

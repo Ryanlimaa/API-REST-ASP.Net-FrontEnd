@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\cidadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Pessoa.cs",
+              "RelativeDocumentMoniker": "WFConFin\\Models\\Pessoa.cs",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Pessoa.cs*",
+              "RelativeToolTip": "WFConFin\\Models\\Pessoa.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T13:27:17.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\PessoaController.cs",
+              "RelativeDocumentMoniker": "WFConFin\\Controllers\\PessoaController.cs",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\PessoaController.cs",
+              "RelativeToolTip": "WFConFin\\Controllers\\PessoaController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv2wAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T13:26:41.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CidadeController.cs",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\CidadeController.cs",
+              "RelativeDocumentMoniker": "WFConFin\\Controllers\\CidadeController.cs",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\CidadeController.cs",
+              "RelativeToolTip": "WFConFin\\Controllers\\CidadeController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwGkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T17:28:47.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Cidade.cs",
               "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Cidade.cs",
               "RelativeDocumentMoniker": "WFConFin\\Models\\Cidade.cs",
@@ -51,33 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CidadeController.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\CidadeController.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Controllers\\CidadeController.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\CidadeController.cs",
-              "RelativeToolTip": "WFConFin\\Controllers\\CidadeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T17:28:47.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EstadoController.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\EstadoController.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Controllers\\EstadoController.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\EstadoController.cs",
-              "RelativeToolTip": "WFConFin\\Controllers\\EstadoController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAcwHMAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T11:20:19.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Program.cs",
               "RelativeDocumentMoniker": "WFConFin\\Program.cs",
@@ -89,19 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WFConFin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T14:44:45.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WFConFin\\Data\\AppDbContext.cs",

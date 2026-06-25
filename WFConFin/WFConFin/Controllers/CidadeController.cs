@@ -62,7 +62,7 @@ namespace WFConFin.Controllers
 
                 if (result == 1)
                 {
-                    return Ok("Cidade incluída com sucesso!");
+                    return Ok($"Cidade {cidade.Nome} incluída com sucesso!");
                 }
                 else
                 {
@@ -103,10 +103,10 @@ namespace WFConFin.Controllers
         {
             try
             {
-                var cidade = await _context.Cidade.FindAsync(id);
+                Cidade cidade = await _context.Cidade.FindAsync(id);
                 if (cidade == null)
                 {
-                    return NotFound("Cidade não encontrada.");
+                    return NotFound($"Cidade com id {id} não encontrada.");
                 }
 
                 _context.Cidade.Remove(cidade);

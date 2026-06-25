@@ -63,7 +63,7 @@ namespace WFConFin.Controllers
 
                 if (result == 1)
                 {
-                    return Ok("Estado cadastrado com sucesso!");
+                    return Ok($"Estado {estado.Nome} cadastrado com sucesso!");
                 }
                 else
                 {
@@ -104,7 +104,7 @@ namespace WFConFin.Controllers
         {
             try
             {
-                var estado = await _context.Estado.FindAsync(sigla);
+                Estado estado = await _context.Estado.FindAsync(sigla);
                 if (estado == null)
                 {
                     return NotFound("Estado não encontrado.");
