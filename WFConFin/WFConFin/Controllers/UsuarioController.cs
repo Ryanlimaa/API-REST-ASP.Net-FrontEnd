@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WFConFin.Data;
 using WFConFin.Models;
@@ -8,6 +9,7 @@ namespace WFConFin.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize] // Exige autenticação para acessar os endpoints do controlador
     public class UsuarioController : Controller
     {
         private readonly AppDbContext _context;
@@ -21,6 +23,7 @@ namespace WFConFin.Controllers
 
         [HttpPost]
         [Route("login")]
+        [AllowAnonymous] // Permite acesso anônimo ao endpoint de login
         public async Task<IActionResult> Login([FromBody] UsuarioLogin login)
         {
             var usuario = _context.Usuario.Where(x => x.Login == login.Login).FirstOrDefault();
@@ -83,6 +86,7 @@ namespace WFConFin.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Gerente, Empregado")]
         public async Task<IActionResult> PostUsuario([FromBody] Usuario usuario)
         {
             try
@@ -111,6 +115,7 @@ namespace WFConFin.Controllers
         }
 
         [HttpPut]
+        [Authorize(Roles = "Gerente, Empregado")]
         public async Task<IActionResult> PutUsuario([FromBody] Usuario usuario)
         {
             try
@@ -133,6 +138,7 @@ namespace WFConFin.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Gerente")]
         public async Task<IActionResult> DeleteUsuario([FromRoute] Guid id)
         {
             try
