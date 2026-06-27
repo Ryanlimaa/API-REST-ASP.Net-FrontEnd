@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using WFConFin.Data;
 using WFConFin.Models;
+using WFConFin.Services;
 
 namespace WFConFin.Controllers
 {
@@ -10,10 +11,40 @@ namespace WFConFin.Controllers
     public class UsuarioController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly TokenService _service;
 
-        public UsuarioController(AppDbContext context)
+        public UsuarioController(AppDbContext context, TokenService service)
         {
             _context = context;
+            _service = service;
+        }
+
+        [HttpPost]
+        [Route("login")]
+        public async Task<IActionResult> Login([FromBody] UsuarioLogin login)
+        {
+            var usuario = _context.Usuario.Where(x => x.Login == login.Login).FirstOrDefault();
+            if (usuario == null)
+            {
+                return NotFound("Usuário inválido.");
+            }
+
+            if (usuario.Password != login.Password)
+            {
+                return BadRequest("Senha inválida");
+            }
+
+            var token = _service.GerarToken(usuario);
+
+            usuario.Password = "";
+
+            var result = new UsuarioResponse()
+            {
+                Usuario = usuario,
+                Token = token
+            };
+
+            return Ok(result);
         }
 
         [HttpGet]
