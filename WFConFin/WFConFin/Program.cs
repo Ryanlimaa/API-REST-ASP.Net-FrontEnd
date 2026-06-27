@@ -1,6 +1,10 @@
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using WFConFin.Data;
+using WFConFin.Services;
 
 namespace WFConFin
 {
@@ -21,6 +25,31 @@ namespace WFConFin
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            var chave = Encoding.ASCII.GetBytes(builder.Configuration.GetSection("Chave").Get<string>());
+
+            builder.Services.AddAuthentication(
+                x =>
+                {
+                    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+                }
+            ).AddJwtBearer(
+                x =>
+                {
+                    x.RequireHttpsMetadata = false;
+                    x.SaveToken = true;
+                    x.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(chave),
+                        ValidateIssuer = false,
+                        ValidateAudience = false
+                    };
+                }
+            );
+            
+            builder.Services.AddSingleton<TokenService>();
 
             var app = builder.Build();
 
@@ -33,8 +62,9 @@ namespace WFConFin
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
+            app.UseAuthentication();
 
+            app.UseAuthorization();
 
             app.MapControllers();
 
