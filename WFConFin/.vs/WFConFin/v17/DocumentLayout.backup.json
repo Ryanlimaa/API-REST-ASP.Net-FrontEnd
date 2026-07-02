@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\models\\usuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\usuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\services\\md5hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\services\\md5hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|c:\\c#\\api-rest-asp.net-frontend\\wfconfin\\wfconfin\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD125ED-C4D7-4CF1-B8C3-0770C244474F}|WFConFin\\WFConFin.csproj|solutionrelative:wfconfin\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,33 +30,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MD5Hash.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Services\\MD5Hash.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Services\\MD5Hash.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Services\\MD5Hash.cs",
-              "RelativeToolTip": "WFConFin\\Services\\MD5Hash.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EstadoController.cs",
+              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\EstadoController.cs",
+              "RelativeDocumentMoniker": "WFConFin\\Controllers\\EstadoController.cs",
+              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\EstadoController.cs",
+              "RelativeToolTip": "WFConFin\\Controllers\\EstadoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T11:14:43.54Z",
+              "WhenOpened": "2026-07-02T13:51:53.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "WFConFin\\Models\\Usuario.cs",
               "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\Usuario.cs",
               "RelativeToolTip": "WFConFin\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T10:56:45.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsuarioLogin.cs",
               "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Models\\UsuarioLogin.cs",
               "RelativeDocumentMoniker": "WFConFin\\Models\\UsuarioLogin.cs",
@@ -79,22 +75,9 @@
               "RelativeDocumentMoniker": "WFConFin\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "WFConFin\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-27T13:08:07.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Program.cs",
-              "RelativeDocumentMoniker": "WFConFin\\Program.cs",
-              "ToolTip": "C:\\C#\\API-REST-ASP.Net-FrontEnd\\WFConFin\\WFConFin\\Program.cs",
-              "RelativeToolTip": "WFConFin\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T13:47:13.179Z",
               "EditorCaption": ""
             }
           ]

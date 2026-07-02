@@ -27,7 +27,6 @@ C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\staticwebasse
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\staticwebassets.development.json
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\WFConFin.csproj.Up2Date
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\WFConFin.dll
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\refint\WFConFin.dll
@@ -116,3 +115,4 @@ C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\bin\Debug\net8.0\Microsoft.Ide
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\C#\API-REST-ASP.Net-FrontEnd\WFConFin\WFConFin\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

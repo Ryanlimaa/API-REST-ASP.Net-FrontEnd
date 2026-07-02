@@ -384,31 +384,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WFConFin.Controllers.HomeController",
-    "Method": "GetEstado",
-    "RelativePath": "Home/estado",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WFConFin.Controllers.HomeController",
-    "Method": "PostEstado",
-    "RelativePath": "Home/estado",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "estado",
-        "Type": "WFConFin.Models.Estado",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]
